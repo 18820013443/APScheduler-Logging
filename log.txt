@@ -1,0 +1,9 @@
+2022-09-25 17:44:39 WARNING loggingTest.py 24 7299 warn message
+2022-09-25 17:44:39 ERROR loggingTest.py 25 7299 error message
+2022-09-25 17:44:39 CRITICAL loggingTest.py 26 7299 critical message
+[2022-09-25 17:50:17] WARNING loggingTest.py 24 7435 warn message
+[2022-09-25 17:50:17] ERROR loggingTest.py 25 7435 error message
+[2022-09-25 17:50:17] CRITICAL loggingTest.py 26 7435 critical message
+[2022-09-25 17:52:55]-WARNING-loggingTest.py-24-7476-warn message
+[2022-09-25 17:52:55]-ERROR-loggingTest.py-25-7476-error message
+[2022-09-25 17:52:55]-CRITICAL-loggingTest.py-26-7476-critical message

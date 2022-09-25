@@ -1,0 +1,88 @@
+2022-09-25 17:24:30 base.py[line:444] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2022-09-25 17:24:30 base.py[line:885] INFO Added job "JobFunc" to job store "default"
+2022-09-25 17:24:30 base.py[line:171] INFO Scheduler started
+2022-09-25 17:24:31 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:31 CST)" (scheduled at 2022-09-25 17:24:31.734860+08:00)
+2022-09-25 17:24:31 base.py[line:144] INFO Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:32 CST)" executed successfully
+2022-09-25 17:24:32 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:32 CST)" (scheduled at 2022-09-25 17:24:32.734860+08:00)
+2022-09-25 17:24:32 base.py[line:131] ERROR Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:33 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 12, in JobFunc
+    ExceptionFunc()
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 17, in ExceptionFunc
+    raise Exception("这里出错了")
+Exception: 这里出错了
+2022-09-25 17:24:33 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:33 CST)" (scheduled at 2022-09-25 17:24:33.734860+08:00)
+2022-09-25 17:24:33 base.py[line:144] INFO Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:34 CST)" executed successfully
+2022-09-25 17:24:34 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:34 CST)" (scheduled at 2022-09-25 17:24:34.734860+08:00)
+2022-09-25 17:24:34 base.py[line:131] ERROR Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:35 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 12, in JobFunc
+    ExceptionFunc()
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 17, in ExceptionFunc
+    raise Exception("这里出错了")
+Exception: 这里出错了
+2022-09-25 17:24:35 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:35 CST)" (scheduled at 2022-09-25 17:24:35.734860+08:00)
+2022-09-25 17:24:35 base.py[line:144] INFO Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:36 CST)" executed successfully
+2022-09-25 17:24:36 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:36 CST)" (scheduled at 2022-09-25 17:24:36.734860+08:00)
+2022-09-25 17:24:36 base.py[line:131] ERROR Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:24:36 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 12, in JobFunc
+    ExceptionFunc()
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 17, in ExceptionFunc
+    raise Exception("这里出错了")
+Exception: 这里出错了
+2022-09-25 17:44:23 base.py[line:444] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2022-09-25 17:44:23 base.py[line:885] INFO Added job "JobFunc" to job store "default"
+2022-09-25 17:44:23 base.py[line:171] INFO Scheduler started
+2022-09-25 17:44:24 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:24 CST)" (scheduled at 2022-09-25 17:44:24.837242+08:00)
+2022-09-25 17:44:24 base.py[line:131] ERROR Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:25 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 12, in JobFunc
+    ExceptionFunc()
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 17, in ExceptionFunc
+    raise Exception("这里出错了")
+Exception: 这里出错了
+2022-09-25 17:44:25 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:25 CST)" (scheduled at 2022-09-25 17:44:25.837242+08:00)
+2022-09-25 17:44:25 base.py[line:144] INFO Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:26 CST)" executed successfully
+2022-09-25 17:44:26 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:26 CST)" (scheduled at 2022-09-25 17:44:26.837242+08:00)
+2022-09-25 17:44:26 base.py[line:131] ERROR Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:27 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 12, in JobFunc
+    ExceptionFunc()
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 17, in ExceptionFunc
+    raise Exception("这里出错了")
+Exception: 这里出错了
+2022-09-25 17:44:27 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:27 CST)" (scheduled at 2022-09-25 17:44:27.837242+08:00)
+2022-09-25 17:44:27 base.py[line:144] INFO Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:27 CST)" executed successfully
+2022-09-25 17:44:28 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:28 CST)" (scheduled at 2022-09-25 17:44:28.837242+08:00)
+2022-09-25 17:44:28 base.py[line:131] ERROR Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:29 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 12, in JobFunc
+    ExceptionFunc()
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 17, in ExceptionFunc
+    raise Exception("这里出错了")
+Exception: 这里出错了
+2022-09-25 17:44:29 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:29 CST)" (scheduled at 2022-09-25 17:44:29.837242+08:00)
+2022-09-25 17:44:29 base.py[line:144] INFO Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:30 CST)" executed successfully
+2022-09-25 17:44:30 base.py[line:123] INFO Running job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:30 CST)" (scheduled at 2022-09-25 17:44:30.837242+08:00)
+2022-09-25 17:44:30 base.py[line:131] ERROR Job "JobFunc (trigger: interval[0:00:01], next run at: 2022-09-25 17:44:31 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 12, in JobFunc
+    ExceptionFunc()
+  File "/Users/kaitang/Code-Projects/apscheduler-logging/apschedulerTest.py", line 17, in ExceptionFunc
+    raise Exception("这里出错了")
+Exception: 这里出错了

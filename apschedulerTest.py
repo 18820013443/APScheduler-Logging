@@ -4,6 +4,11 @@ import datetime
 import logging
 import os
 
+'''
+Apscheduler和logging使用参考
+https://blog.csdn.net/time_money/article/details/119825381
+'''
+
 
 def JobFunc():
     strCurrentTime = datetime.datetime.strftime(datetime.datetime.now(), '%Y-%m-%d %H:%M:%S')
